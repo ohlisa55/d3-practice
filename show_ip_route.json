@@ -1,0 +1,131 @@
+{
+    "ansible_facts": {
+        "parsed_output": {
+            "vrf": {
+                "default": {
+                    "address_family": {
+                        "ipv4": {
+                            "routes": {
+                                "10.1.1.0/24": {
+                                    "active": true,
+                                    "metric": 2170112,
+                                    "next_hop": {
+                                        "next_hop_list": {
+                                            "1": {
+                                                "index": 1,
+                                                "next_hop": "209.165.200.226",
+                                                "outgoing_interface": "Serial0/0/0",
+                                                "updated": "00:01:30"
+                                            }
+                                        }
+                                    },
+                                    "route": "10.1.1.0/24",
+                                    "route_preference": 90,
+                                    "source_protocol": "eigrp",
+                                    "source_protocol_codes": "D"
+                                },
+                                "10.1.2.0/24": {
+                                    "active": true,
+                                    "metric": 2170112,
+                                    "next_hop": {
+                                        "next_hop_list": {
+                                            "1": {
+                                                "index": 1,
+                                                "next_hop": "209.165.200.226",
+                                                "outgoing_interface": "Serial0/0/0",
+                                                "updated": "00:01:30"
+                                            }
+                                        }
+                                    },
+                                    "route": "10.1.2.0/24",
+                                    "route_preference": 90,
+                                    "source_protocol": "eigrp",
+                                    "source_protocol_codes": "D"
+                                },
+                                "192.168.10.0/24": {
+                                    "active": true,
+                                    "next_hop": {
+                                        "outgoing_interface": {
+                                            "GigabitEthernet0/0": {
+                                                "outgoing_interface": "GigabitEthernet0/0"
+                                            }
+                                        }
+                                    },
+                                    "route": "192.168.10.0/24",
+                                    "source_protocol": "connected",
+                                    "source_protocol_codes": "C"
+                                },
+                                "192.168.10.1/32": {
+                                    "active": true,
+                                    "next_hop": {
+                                        "outgoing_interface": {
+                                            "GigabitEthernet0/0": {
+                                                "outgoing_interface": "GigabitEthernet0/0"
+                                            }
+                                        }
+                                    },
+                                    "route": "192.168.10.1/32",
+                                    "source_protocol": "local",
+                                    "source_protocol_codes": "L"
+                                },
+                                "192.168.11.0/24": {
+                                    "active": true,
+                                    "next_hop": {
+                                        "outgoing_interface": {
+                                            "GigabitEthernet0/1": {
+                                                "outgoing_interface": "GigabitEthernet0/1"
+                                            }
+                                        }
+                                    },
+                                    "route": "192.168.11.0/24",
+                                    "source_protocol": "connected",
+                                    "source_protocol_codes": "C"
+                                },
+                                "192.168.11.1/32": {
+                                    "active": true,
+                                    "next_hop": {
+                                        "outgoing_interface": {
+                                            "GigabitEthernet0/1": {
+                                                "outgoing_interface": "GigabitEthernet0/1"
+                                            }
+                                        }
+                                    },
+                                    "route": "192.168.11.1/32",
+                                    "source_protocol": "local",
+                                    "source_protocol_codes": "L"
+                                },
+                                "209.165.200.224/30": {
+                                    "active": true,
+                                    "next_hop": {
+                                        "outgoing_interface": {
+                                            "Serial0/0/0": {
+                                                "outgoing_interface": "Serial0/0/0"
+                                            }
+                                        }
+                                    },
+                                    "route": "209.165.200.224/30",
+                                    "source_protocol": "connected",
+                                    "source_protocol_codes": "C"
+                                },
+                                "209.165.200.225/32": {
+                                    "active": true,
+                                    "next_hop": {
+                                        "outgoing_interface": {
+                                            "Serial0/0/0": {
+                                                "outgoing_interface": "Serial0/0/0"
+                                            }
+                                        }
+                                    },
+                                    "route": "209.165.200.225/32",
+                                    "source_protocol": "local",
+                                    "source_protocol_codes": "L"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "changed": false
+}
